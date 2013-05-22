@@ -13,10 +13,10 @@ enough to buy alcohol.
 var customer = alert ("Is the customer old enough to buy alcohol?");
 
 /*Asks for ID from customer*/
-var askId = prompt("Does the customer have ID?"); 
+var askId = prompt("Does the customer have ID? \nEnter yes or no (case sensitive)."); 
 
 /*If no ID, turn customer away*/
-if(askId == "No"){console.log("Sorry, we need to see your driver's license!");
+if(askId == "no"){console.log("Sorry, we need to see your driver's license!");
 }else{/*Code performed if customer has ID*/
 	var birthYear = prompt("What is the year of birth?");
 	/*Calculation for age*/
