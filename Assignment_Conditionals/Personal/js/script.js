@@ -16,6 +16,7 @@ console.log(wakeUpHour + " wakeUpHour var");
 var wakeUpMinute = prompt("Enter the minute you need to wake up at.");
 console.log(wakeUpMinute + " wakeUpMinute var");
 
-var currentMinutesConvert = (currentHour * 60)+currentMinute;
+
+var currentMinutesConvert = (currentHour * 60) + parseInt(currentMinute);
 console.log(currentMinutesConvert + " minutes.");
 
