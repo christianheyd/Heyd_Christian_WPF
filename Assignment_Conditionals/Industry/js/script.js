@@ -2,7 +2,7 @@
 /* 
 Christian Heyd
 May 22nd, 2013
-Assignment - Conditionals (Personal)
+Assignment - Conditionals (Industry)
 
 I work at a grocery store near my home. This is something that we have to do regularly,
 so I figured I could make something out of it. This script will verify if a customer is old
