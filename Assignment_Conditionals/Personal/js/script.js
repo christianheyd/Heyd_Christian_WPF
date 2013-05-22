@@ -8,11 +8,14 @@
 
 alert("Is it time for you to go to sleep?");
 var currentHour = prompt("Enter the current hour.");
-console.log(currentHour + "currentHour var");
+console.log(currentHour + " currentHour var");
 var currentMinute = prompt("Enter current minute");
-console.log(currentMinute + "currentMinute var");
+console.log(currentMinute + " currentMinute var");
 var wakeUpHour = prompt("Enter the hour you need to wake up at.");
-console.log(wakeUpHour + "wakeUpHour var");
+console.log(wakeUpHour + " wakeUpHour var");
 var wakeUpMinute = prompt("Enter the minute you need to wake up at.");
-console.log(wakeUpMinute + "wakeUpMinute var");
+console.log(wakeUpMinute + " wakeUpMinute var");
+
+var currentMinutesConvert = (currentHour * 60)+currentMinute;
+console.log(currentMinutesConvert + " minutes.");
 
