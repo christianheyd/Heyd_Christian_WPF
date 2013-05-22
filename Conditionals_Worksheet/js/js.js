@@ -30,3 +30,20 @@ if(weight > 250){
 	
 	
 //Temperature Converter
+
+var temp = prompt("This will convert a temperature from Fahrenheit to Celsius, or vice versa.\nPlease enter the temperature.");
+console.log(temp);
+
+var tempSystem = prompt("Please enter C or F.");
+
+if(tempSystem == "C"){
+	var conversionC = temp  *  9/5 + 32;
+	
+	console.log("The temperature in Fahrenheit is " + conversionC + (" degrees."));	
+}
+if(tempSystem == "F"){
+	var conversionF = (temp  -  32)  *  5/9;
+	
+	console.log("The temperature in Celsius is " + conversionF + (" degrees."));
+};
+
