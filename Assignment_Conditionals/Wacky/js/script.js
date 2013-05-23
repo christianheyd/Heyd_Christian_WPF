@@ -18,3 +18,16 @@ console.log(weight);
 var heavenlyBody = prompt("Please select an object of the solar system from this list. Case sensitive! \n- The Sun \n- Mercury \n- Venus \n- The Moon \n- Mars \n- Jupiter \n- Saturn \n- Uranus \n- Neptune \n- Pluto");
 console.log(heavenlyBody);
 
+if(heavenlyBody == "The Sun"){
+	var sunPound = 27.072;
+	var sunEarthConvert = weight * sunPound;
+	console.log("You would weigh " + sunEarthConvert + " pounds on the Sun!");
+}else if(heavenlyBody == "Mercury"){
+	var mercPound = 0.378;
+	var mercConvert = weight * mercPound;
+	console.log("You would weigh " + mercConvert + " pounds on Mercury!");
+}else if(heavenlyBody == "Venus"){
+	var venusPound = 0.907;	
+	var venusConvert = weight * venusPound;
+	console.log("You would weigh " + venusConvert + " pounds on Venus!");
+}else{}
