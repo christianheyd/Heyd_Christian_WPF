@@ -20,3 +20,6 @@ console.log(wakeUpMinute + " wakeUpMinute var");
 var currentMinutesConvert = (currentHour * 60) + parseInt(currentMinute);
 console.log(currentMinutesConvert + " minutes.");
 
+var wakeUpMinutesConvert = (wakeUpHour * 60) + parseInt(wakeUpMinute);
+console.log(wakeUpMinutesConvert + " minutes.");
+
