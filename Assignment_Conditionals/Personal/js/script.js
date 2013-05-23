@@ -11,14 +11,29 @@ var currentHour = prompt("Enter the current hour.");
 console.log(currentHour + " currentHour var");
 var currentMinute = prompt("Enter current minute");
 console.log(currentMinute + " currentMinute var");
+var amPmCurrent = prompt("AM or PM? (Case sensitive)");
+console.log(amPmCurrent);
+if(amPmCurrent == "PM"){
+	var pmCurrentHour = parseInt(currentHour) + 12;
+	console.log(pmCurrentHour);
+	var currentMinutesConvert = (parseInt(pmCurrentHour) * 60) + parseInt(currentMinute);
+	console.log(currentMinutesConvert + " minutes.");
+}else{
+};
 var wakeUpHour = prompt("Enter the hour you need to wake up at.");
 console.log(wakeUpHour + " wakeUpHour var");
 var wakeUpMinute = prompt("Enter the minute you need to wake up at.");
 console.log(wakeUpMinute + " wakeUpMinute var");
+var amPmWakeUp = prompt("AM or PM? (Case sensitive)");
+if(amPmWakeUp == "PM"){
+	var pmWakeUpHour = parseInt(wakeUpHour) + 12;
+	console.log(pmWakeUpHour);
+	var currentMinutesConvert = (parseInt(pmCurrentHour) * 60) + parseInt(currentMinute);
+	console.log(currentMinutesConvert + " minutes.");
+}else{
+};
 
 
-var currentMinutesConvert = (currentHour * 60) + parseInt(currentMinute);
-console.log(currentMinutesConvert + " minutes.");
 
 var wakeUpMinutesConvert = (wakeUpHour * 60) + parseInt(wakeUpMinute);
 console.log(wakeUpMinutesConvert + " minutes.");
