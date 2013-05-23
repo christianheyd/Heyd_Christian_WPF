@@ -54,4 +54,10 @@ if(heavenlyBody == "The Sun"){
 	var nepPound = 1.125;
 	var nepConvert = weight * nepPound;
 	console.log("You would weigh " + nepConvert + " pounds on Neptune!");
+}else if(heavenlyBody == "Pluto"){
+	var pluPound = 0.067;
+	var pluConvert = weight * pluPound;
+	console.log("Pluto isn't a planet, but you would weigh " + pluConvert + " pounds there!");
+}else{
+	alert("Please check your spelling and refresh the page.");
 }
