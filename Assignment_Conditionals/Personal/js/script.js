@@ -28,3 +28,5 @@ console.log(minSlept + " minutes slept.");
 
 var hoursSlept = minSlept / 60;
 console.log(hoursSlept + " hours slept.");
+
+(hoursSlept < 7) ? console.log("You went to bed too late! You need at least 7 hours of sleep!") : console.log("You've slept plenty!");
