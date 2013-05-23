@@ -23,7 +23,7 @@ console.log(currentMinutesConvert + " minutes.");
 var wakeUpMinutesConvert = (wakeUpHour * 60) + parseInt(wakeUpMinute);
 console.log(wakeUpMinutesConvert + " minutes.");
 
-var minSlept = wakeUpMinutesConvert - currentMinutesConvert;
+var minSlept = Math.abs(wakeUpMinutesConvert - currentMinutesConvert);
 console.log(minSlept + " minutes slept.");
 
 var hoursSlept = minSlept / 60;
