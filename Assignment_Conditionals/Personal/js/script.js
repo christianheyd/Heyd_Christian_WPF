@@ -19,25 +19,30 @@ if(amPmCurrent == "PM"){
 	var currentMinutesConvert = (parseInt(pmCurrentHour) * 60) + parseInt(currentMinute);
 	console.log(currentMinutesConvert + " minutes.");
 }else{
+	var currentMinutesConvert = (parseInt(currentHour) * 60) + parseInt(currentMinute);
+	console.log(currentMinutesConvert + " minutes.");
 };
 var wakeUpHour = prompt("Enter the hour you need to wake up at.");
 console.log(wakeUpHour + " wakeUpHour var");
 var wakeUpMinute = prompt("Enter the minute you need to wake up at.");
 console.log(wakeUpMinute + " wakeUpMinute var");
 var amPmWakeUp = prompt("AM or PM? (Case sensitive)");
+
 if(amPmWakeUp == "PM"){
 	var pmWakeUpHour = parseInt(wakeUpHour) + 12;
 	console.log(pmWakeUpHour);
-	var currentMinutesConvert = (parseInt(pmCurrentHour) * 60) + parseInt(currentMinute);
-	console.log(currentMinutesConvert + " minutes.");
+	var wakeUpMinutesConvert = (parseInt(pmWakeUpHour) * 60) + parseInt(wakeUpMinute);
+	console.log(wakeUpMinutesConvert + " minutes.");
 }else{
+	var wakeUpMinutesConvert = ((parseInt(wakeUpHour) * 60) + parseInt(wakeUpMinute));
+	console.log(wakeUpMinutesConvert + " minutes.");
 };
 
 
 
-var wakeUpMinutesConvert = (wakeUpHour * 60) + parseInt(wakeUpMinute);
+/*var wakeUpMinutesConvert = (wakeUpHour * 60) + parseInt(wakeUpMinute);
 console.log(wakeUpMinutesConvert + " minutes.");
-
+*/
 var minSlept = wakeUpMinutesConvert - currentMinutesConvert;
 console.log(minSlept + " minutes slept.");
 
