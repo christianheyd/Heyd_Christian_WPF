@@ -31,4 +31,4 @@ if(askId == "no"){console.log("Sorry, we need to see your driver's license!");
 		}
 	
 	
-}
+};
