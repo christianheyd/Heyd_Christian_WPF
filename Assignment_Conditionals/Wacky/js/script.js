@@ -30,4 +30,28 @@ if(heavenlyBody == "The Sun"){
 	var venusPound = 0.907;	
 	var venusConvert = weight * venusPound;
 	console.log("You would weigh " + venusConvert + " pounds on Venus!");
-}else{}
+}else if(heavenlyBody =="The Moon"){
+	var moonPound = 0.166;
+	var moonConvert = weight * moonPound;
+	console.log("You would weigh " + moonConvert + " pounds on The Moon!");
+}else if(heavenlyBody == "Mars"){
+	var marsPound = 0.377;
+	var marsConvert = weight * marsPound;
+	console.log("You would weigh " + marsConvert + " pounds on Mars!");
+}else if(heavenlyBody == "Jupiter"){
+	var jupPound = 2.364;
+	var jupConvert = weight * jupPound;
+	console.log("You would weigh " + jupConvert + " pounds on Jupiter!");
+}else if(heavenlyBody =="Saturn"){
+	var satPound = 0.916;
+	var satConvert = weight * satPound;
+	console.log("You would weigh " + satConvert + " pounds on Saturn!");
+}else if(heavenlyBody == "Uranus"){
+	var uraPound = 0.889;
+	var uraConvert = weight * uraPound;
+	console.log("You would weigh " + uraConvert + " pounds on Uranus!");
+}else if(heavenlyBody == "Neptune"){
+	var nepPound = 1.125;
+	var nepConvert = weight * nepPound;
+	console.log("You would weigh " + nepConvert + " pounds on Neptune!");
+}
