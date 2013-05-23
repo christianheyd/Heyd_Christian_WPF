@@ -14,3 +14,7 @@ Space Weights
 alert("How much would you weight on another planet?");
 var weight = prompt("How much do you weigh on Earth?");
 console.log(weight);
+
+var heavenlyBody = prompt("Please select an object of the solar system from this list. Case sensitive! \n- The Sun \n- Mercury \n- Venus \n- The Moon \n- Mars \n- Jupiter \n- Saturn \n- Uranus \n- Neptune \n- Pluto");
+console.log(heavenlyBody);
+
