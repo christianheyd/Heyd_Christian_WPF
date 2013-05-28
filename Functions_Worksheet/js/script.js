@@ -13,6 +13,6 @@ function circumference(r){
 	return circ;
 	};
 	
-	circumference(radius);
-	console.log(circ);
+	var circLog = circumference(radius);
+	console.log(circLog);
 
