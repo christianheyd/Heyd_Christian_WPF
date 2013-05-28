@@ -7,12 +7,12 @@
 
 var radius = prompt("Please enter radius of the circle.");
 
-function circumference(r){
-	var diameter = r * 2;
-	var circ = 3.14 * diameter;
-	return circ;
+function circumference(r){//function to calculate circumference
+	var diameter = r * 2; //finds diameter of circle
+	var circ = 3.14 * diameter; //calculates cicumference
+	return circ; //returns circumference
 	};
 	
-	var circLog = circumference(radius);
-	console.log(circLog);
+	var circLog = circumference(radius); //return variable for circumference
+	console.log(circLog); //prints circumference to console.
 
