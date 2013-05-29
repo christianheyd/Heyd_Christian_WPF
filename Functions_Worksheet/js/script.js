@@ -16,3 +16,7 @@ function circumference(r){//function to calculate circumference
 	var circLog = circumference(radius); //return variable for circumference
 	console.log(circLog); //prints circumference to console.
 
+// Stung!
+
+var weight = prompt("Please enter your weight to see how many beestings are fatal.");
+
