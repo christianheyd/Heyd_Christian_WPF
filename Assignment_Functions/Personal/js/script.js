@@ -20,3 +20,7 @@ function quarter(b){
 	return quarterBalance
 
 };
+
+var showQuarter = quarter(totalBalance);
+console.log("$" + showQuarter + " is a quarter of your total balance.");
+
