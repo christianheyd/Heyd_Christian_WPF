@@ -26,4 +26,4 @@ function sting(w){
 };
 
 var ouch = sting(weight);
-console.log(ouch);
+console.log("You can take no more than " + Math.round(ouch) + " bee stings!");
