@@ -26,3 +26,4 @@ function sting(w){
 };
 
 var ouch = sting(weight);
+console.log(ouch);
