@@ -24,3 +24,4 @@ function quarter(b){
 var showQuarter = quarter(totalBalance);
 console.log("$" + showQuarter + " is a quarter of your total balance.");
 
+(showQuarter <= purchaseAmount) ? console.log("This purchase is over your budget for this pay period!") : console.log("This purchase is within your budget.");
