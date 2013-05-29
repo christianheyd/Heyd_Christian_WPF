@@ -14,7 +14,7 @@ function circumference(r){//function to calculate circumference
 };
 	
 var circLog = circumference(radius); //return variable for circumference
-console.log(circLog); //prints circumference to console.
+console.log("The circumference of your circle is " + circLog + " inches."); //prints circumference to console.
 
 // Stung!
 
