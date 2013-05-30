@@ -15,9 +15,10 @@ var tasksCompleted = prompt("How many tasks have been completed?");
 console.log(tasksCompleted + " tasks completed.");
 
 function taskPercent(tT, tC){
-	var tasks = tT / tC;
-	return tasks;
+	var tasks = tC / tT;
+	var taskConvert = tasks * 100;
+	return taskConvert;
 }
 
 var taskPercentage = taskPercent(tasksTotal, tasksCompleted);
-console.log(taskPercentage);
+console.log(taskPercentage + " percent of the project is finished.");
