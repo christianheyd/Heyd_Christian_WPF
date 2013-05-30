@@ -12,7 +12,7 @@ var tasksTotal = prompt("How many tasks are there in total to complete?");
 console.log(tasksTotal + " total tasks.");
 
 var tasksCompleted = prompt("How many tasks have been completed?");
-console.log(tasksComplete + " tasks completed.");
+console.log(tasksCompleted + " tasks completed.");
 
 function taskPercent(tT, tC){
 	var tasks = tT / tC;
