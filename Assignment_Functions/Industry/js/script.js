@@ -19,3 +19,5 @@ function taskPercent(tT, tC){
 	return tasks;
 }
 
+var taskPercentage = taskPercent(tasksTotal, tasksCompleted);
+console.log(taskPercentage);
