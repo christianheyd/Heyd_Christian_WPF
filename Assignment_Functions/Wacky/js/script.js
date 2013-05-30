@@ -11,7 +11,7 @@ console.log(planeSize);
 
 var passengers = prompt("How many passengers are on the plane?");
 
-function planePercent(){
+function planePercent(p, s){
 	var percent = p / s;
 	var convert = percent * 100;
 	return convert;
