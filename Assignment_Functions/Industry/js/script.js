@@ -9,6 +9,13 @@
 alert("How much have you done on your project for the client?");
 
 var tasksTotal = prompt("How many tasks are there in total to complete?");
+console.log(tasksTotal + " total tasks.");
 
 var tasksCompleted = prompt("How many tasks have been completed?");
+console.log(tasksComplete + " tasks completed.");
+
+function taskPercent(tT, tC){
+	var tasks = tT / tC;
+	return tasks;
+}
 
