@@ -16,3 +16,7 @@ function planePercent(p, s){
 	var convert = percent * 100;
 	return convert;
 }
+
+var askPercentDisplay = prompt("Would you like to see percent full or empty? \nEnter 1 for full and 2 for empty.");
+
+if(askPercentDisplay == "1")
